@@ -1,5 +1,11 @@
 import React from 'react'
 import styles from "./About.module.css"
+import { Metadata } from 'next'
+
+export const metadata: Metadata ={
+  title: "About page",
+  description: "About page description"
+}
 
 
 const AboutPage = () => {
