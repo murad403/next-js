@@ -1,11 +1,11 @@
 import React from 'react'
 
-const BlogPage = () => {
+const page = () => {
   return (
     <div>
-      blog
+      admin stats
     </div>
   )
 }
 
-export default BlogPage
+export default page

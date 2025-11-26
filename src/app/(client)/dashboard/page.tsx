@@ -1,11 +1,11 @@
 import React from 'react'
 
-const UserPage = () => {
+const page = () => {
   return (
     <div>
-      User page
+      Client dashboard
     </div>
   )
 }
 
-export default UserPage
+export default page
