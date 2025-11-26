@@ -17,9 +17,10 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
+  children, modal
 }: Readonly<{
   children: React.ReactNode;
+  modal: React.ReactNode;
 }>) {
   return (
     <html lang="en" data-theme="light">
@@ -27,7 +28,7 @@ export default function RootLayout({
         className={`${roboto.className} antialiased`}
       >
         {children}
-        
+        {modal}
       </body>
     </html>
   );
