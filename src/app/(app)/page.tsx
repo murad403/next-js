@@ -1,10 +1,4 @@
 import Counter from '@/components/Counter/Counter'
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: "Home page",
-  description: "Home page description"
-}
 
 const page = () => {
   // console.log("Hello server component")

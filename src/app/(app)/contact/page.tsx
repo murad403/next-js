@@ -18,7 +18,7 @@ const ContactPage = async () => {
                         <label className='block text-sm font-bold'>Password</label>
                         <input name='password' type="text" className='appearance-none outline outline-amber-400 border border-amber-300 py-1 px-4' />
                     </div>
-                    <button type='submit' className='bg-amber-300 p-2 rounded-xl w-full'>Submit</button>
+                    <button type='submit' className='bg-amber-300 p-2 rounded-xl w-full cursor-pointer'>Submit</button>
                 </form>
             </div>
             <div className='mt-10 grid grid-cols-5 gap-10'>
