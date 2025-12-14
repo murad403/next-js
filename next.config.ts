@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
     ],
   },
   /* config options here */
-  reactCompiler: true,
+  reactCompiler: true, //react compiler support
 };
 
 // export default nextConfig;
